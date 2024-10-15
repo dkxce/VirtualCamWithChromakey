@@ -53,6 +53,7 @@ namespace dkxce
         public static int default_height = 480;
         public static bool in_progress = false;
 
+        // Entry Point
         public static void Route()
         {
             in_progress = true;
@@ -90,8 +91,7 @@ namespace dkxce
                 };
             };
         }
-
-        // Entry Point
+        
         private static void LaunchThread(int width, int height)
         {
             Thread thr = new Thread(() => RouteThread((object)(new int[] { width, height })));

@@ -85,7 +85,8 @@ namespace dkxce
                         };
 
                         buffer_mutex.WaitOne();
-                        RealCamToVirtualCamRouter.buffer_frame = img;
+                        if (buffer_frame != null) buffer_frame.Dispose();
+                        buffer_frame = img;
                         buffer_mutex.ReleaseMutex();                                             
                     };
                 };

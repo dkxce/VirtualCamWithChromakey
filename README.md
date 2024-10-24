@@ -24,4 +24,4 @@ removed greenbox image:
 mixed image:   
 <img src="greenbox_with_background.jpg"/> 
 
-Other results [here](https://github.com/dkxce/VirtualCamWithChromakey/images)
+Other results [here](https://github.com/dkxce/VirtualCamWithChromakey/tree/main/images)

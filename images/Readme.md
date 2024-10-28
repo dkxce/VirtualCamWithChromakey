@@ -1,3 +1,11 @@
+Average test times:   
+- RGBChromakeyRemover: 00:00:00.2688897   
+- YCbCrChromakeyRemover: 00:00:00.1806019   
+- RGB3DChromakeyRemover: 00:00:00.1746282   
+- GrayScaleChromakeyRemover: 00:00:00.1677170   
+- ColorMetricChromakeyRemover: 00:00:00.1800540   
+- HSVChromakeyRemover: 00:00:00.1836839   
+
 background.jpg	   
 <img src="background.jpg"/>     
 greenbox.jpg	   
